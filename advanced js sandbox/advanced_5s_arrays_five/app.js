@@ -21,7 +21,7 @@ const mapArray = array.map(val => val * 2);
 console.log('map', mapArray);
 
 // ! filter 1
-// this filters through the array and you can give it a condition and it returns the val f thre condition given
+// this filters through the array and you can give it a condition and it returns the val if the condition given
 
 const filterArray = array.filter(num => num > 5)
 
