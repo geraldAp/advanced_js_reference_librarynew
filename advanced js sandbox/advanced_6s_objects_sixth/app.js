@@ -57,7 +57,7 @@ class Wizard extends Player {
     // We used super to acces the name and type in the player
     constructor(name, type) {
         super(name, type)
-        console.log('wiard', this)
+        console.log('wizard', this)
 
     }
     play() {
