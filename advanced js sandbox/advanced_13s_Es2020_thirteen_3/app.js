@@ -109,19 +109,26 @@ let andrei_pokemon2 = {
     }
 }
 
-if (andrei_pokemon && andrei_pokemon.raichu && will_pokemon 
-    && will_pokemon.pikachu && will_pokemon.pikachu.friend 
-    && will_pokemon.pikachu.friend.charizard) {
+if (andrei_pokemon2 && andrei_pokemon2.raichu && will_pokemon2 
+    && will_pokemon2.pikachu && will_pokemon2.pikachu.friend 
+    && will_pokemon2.pikachu.friend.charizard) {
         console.log('fight!')
     } else {
         console.log('walk away...')
     }
+// answer
+    
+if (andrei_pokemon?.raichu && will_pokemon?.pikachu?.friend?.charizard) {
+    console.log('fight!')
+} else {
+    console.log('walk away...')
+}
 
 
 // Exercise 4: What do these each output?
-console.log(false ?? 'hellooo')
-console.log(null ?? 'hellooo')
-console.log(null || 'hellooo')
-console.log((false || null) ?? 'hellooo')
-console.log(null ?? (false || 'hellooo'))
+console.log(false ?? 'hellooo') //false 
+console.log(null ?? 'hellooo') // hello
+console.log(null || 'hellooo') //hello
+console.log((false || null) ?? 'hellooo') // hello
+console.log(null ?? (false || 'hellooo')) // hello 
 
